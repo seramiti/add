@@ -7971,127 +7971,36 @@
 														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
-												<InputField name="ЯзыкГенератораGherkin" id="1694">
-													<DataPath>Объект.ЯзыкГенератораGherkin</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Язык генератора Gherkin</v8:content>
-														</v8:item>
-													</Title>
-													<ListChoiceMode>true</ListChoiceMode>
-													<ChoiceList>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Русский</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">ru</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>English</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">en</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Украинский</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">uk</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Romanian</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">ro</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Deutsch</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">de</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Latvian</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">lv</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Italian</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">it</Value>
-															</xr:Value>
-														</xr:Item>
-														<xr:Item>
-															<xr:Presentation/>
-															<xr:CheckState>0</xr:CheckState>
-															<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																<Presentation>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Polish</v8:content>
-																	</v8:item>
-																</Presentation>
-																<Value xsi:type="xs:string">pl</Value>
-															</xr:Value>
-														</xr:Item>
-													</ChoiceList>
-													<ContextMenu name="ЯзыкГенератораGherkinКонтекстноеМеню" id="1695"/>
-													<ExtendedTooltip name="ЯзыкГенератораGherkinРасширеннаяПодсказка" id="1696"/>
-													<Events>
-														<Event name="OnChange">ЯзыкГенератораGherkinПриИзменении</Event>
-													</Events>
-												</InputField>
+												<UsualGroup name="Группа5" id="1809">
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="1810"/>
+													<ChildItems>
+														<InputField name="КоманднаяСтрокаОткрытияФичи" id="1806">
+															<DataPath>Объект.КоманднаяСтрокаОткрытияФичи</DataPath>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Пример запуска
+code.exe -g %FeatureFile%:%FeatureLine%</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ContextMenu name="КоманднаяСтрокаОткрытияФичиКонтекстноеМеню" id="1807"/>
+															<ExtendedTooltip name="КоманднаяСтрокаОткрытияФичиРасширеннаяПодсказка" id="1808"/>
+														</InputField>
+														<Button name="Редактор_VSCode" id="1811">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<Height>1</Height>
+															<CommandName>Form.Command.Редактор_VSCode</CommandName>
+															<Picture>
+																<xr:Abs>Picture.png</xr:Abs>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<ExtendedTooltip name="Редактор_VSCodeРасширеннаяПодсказка" id="1812"/>
+														</Button>
+													</ChildItems>
+												</UsualGroup>
 												<UsualGroup name="ФлажкиНастроек" id="910">
 													<Title>
 														<v8:item>
@@ -8795,6 +8704,127 @@
 														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
+												<InputField name="ЯзыкГенератораGherkin" id="1694">
+													<DataPath>Объект.ЯзыкГенератораGherkin</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Язык генератора Gherkin</v8:content>
+														</v8:item>
+													</Title>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Русский</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">ru</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>English</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">en</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Украинский</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">uk</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Romanian</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">ro</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Deutsch</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">de</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Latvian</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">lv</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Italian</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">it</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Polish</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">pl</Value>
+															</xr:Value>
+														</xr:Item>
+													</ChoiceList>
+													<ContextMenu name="ЯзыкГенератораGherkinКонтекстноеМеню" id="1695"/>
+													<ExtendedTooltip name="ЯзыкГенератораGherkinРасширеннаяПодсказка" id="1696"/>
+													<Events>
+														<Event name="OnChange">ЯзыкГенератораGherkinПриИзменении</Event>
+													</Events>
+												</InputField>
 												<UsualGroup name="Группа6" id="922">
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -18740,6 +18770,23 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьОткрытьОтчетAllure</Action>
+		</Command>
+		<Command name="Редактор_VSCode" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Visual Studio Code</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактор VSCode</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Редактор_VSCode</Action>
+			<Representation>TextPicture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 	</Commands>
 </Form>
